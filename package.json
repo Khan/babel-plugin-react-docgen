@@ -8,9 +8,10 @@
   "devDependencies": {
     "babel-cli": "^6.0.0",
     "babel-preset-es2015": "^6.18.0",
-    "babel-preset-stage-0": "^6.16.0",
     "babel-preset-react": "^6.16.0",
-    "mocha": "^2.0.0"
+    "babel-preset-stage-0": "^6.16.0",
+    "mocha": "^2.0.0",
+    "react-docgen": "^3.0.0-beta10"
   },
   "scripts": {
     "clean": "rm -rf lib",
@@ -27,8 +28,7 @@
   ],
   "dependencies": {
     "babel-types": "^6.24.1",
-    "lodash": "^4.17.0",
-    "react-docgen": "^2.20.0"
+    "lodash": "^4.17.0"
   },
   "license": "MIT"
 }
