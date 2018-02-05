@@ -18,6 +18,7 @@ describe('Add propType doc to react classes', () => {
         presets: [
           "react",
           "es2015",
+          "stage-0",
         ],
         plugins: [
           [plugin, {
