@@ -11,14 +11,13 @@
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
     "mocha": "^2.0.0",
-    "react-docgen": "^3.0.0-beta10"
+    "react-docgen": "3.0.0-beta9"
   },
   "scripts": {
     "clean": "rm -rf lib",
     "build": "babel src -d lib",
     "test": "mocha --compilers js:babel-register",
-    "test:watch": "npm run test -- --watch",
-    "prepare": "npm run test && npm run clean && npm run build"
+    "test:watch": "npm run test -- --watch"
   },
   "keywords": [
     "react",
